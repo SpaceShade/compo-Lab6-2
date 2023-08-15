@@ -45,6 +45,7 @@ const router = createRouter({
         .then((response) => {
         //need to set up the data for the component
            eventStore.setEvent(response.data)
+           console.log(response.data)
         })
         .catch((error)=>{
           if (error.response&&error.response.status === 404){
