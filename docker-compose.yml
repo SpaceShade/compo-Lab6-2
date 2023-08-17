@@ -1,0 +1,7 @@
+version: "3.9"
+
+services:
+  web:
+    image: "spaceshade/se331-lab06:latest"
+    ports:
+      - "3002:80"
